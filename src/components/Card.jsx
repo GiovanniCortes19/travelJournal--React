@@ -2,6 +2,7 @@ import pinIcon from './pin-icon.png'
 
 export default function Card(props) {
     return (
+        <>
         <div className="card">
 
             <img src={props.item.imageUrl} alt='travel-destination' className="card-img" />
@@ -23,5 +24,8 @@ export default function Card(props) {
             </div>
 
         </div>
+        <hr className='hr-line' />
+
+        </>
     )
 }
