@@ -1,3 +1,5 @@
+import pinIcon from './pin-icon.png'
+
 export default function Card(props) {
     return (
         <div className="card">
@@ -6,7 +8,7 @@ export default function Card(props) {
 
             <div className="card-text">
                 <div className="location-info">
-                    <img src='' className="pin-icon" />
+                    <img src={pinIcon} className="pin-icon" />
                     <span>{props.item.location}</span>
                     <a href={props.item.googleMapsUrl}>View on Google Maps</a>
                 </div>
