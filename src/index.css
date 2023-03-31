@@ -85,7 +85,7 @@ h1 {
   display: flex;
   margin-top: 4.5em;
   margin-bottom: 2.5em;
-  flex-direction: column;
+  flex-direction:column-reverse;
   align-items: center;
   justify-content: center;
   row-gap: 1em;
@@ -267,5 +267,44 @@ h1 {
   .date {
     margin-top: 20px;
     margin-bottom: 10px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+
+  .pin-icon {
+    width: 9px;
+    height: 12px;
+  }
+  
+  .card-img {
+    width: 115px;
+    height: 185px;
+    border-radius: 7px;
+    object-fit: cover;
+  }
+
+  .card-text {
+    max-width: 315px;
+    font-size: 14px;
+    row-gap: 10px;
+  }
+
+  .location-info {
+    max-width: 250px;
+    column-gap: 8px;
+  }
+
+  .location {
+    font-size: 12px;
+  }
+
+  .title {
+    font-size: 24px;
+  }
+
+  .date {
+    margin-top: 5px;
+    margin-bottom: 5px;
   }
 }
