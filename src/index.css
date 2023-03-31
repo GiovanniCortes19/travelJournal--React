@@ -88,8 +88,10 @@ h1 {
 }
 
 .card-img {
-  width: 126px;
-  height: 168px;
+  width: 130px;
+  height: 170px;
+  border-radius: 7px;
+  object-fit: cover;
 }
 
 .location-info {
