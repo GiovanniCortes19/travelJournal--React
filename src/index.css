@@ -65,21 +65,27 @@ h1 {
 
 /* CARD */
 
-/* .cards-list {
-  width: 471px;
-  height: 168px;
+.cards-list {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-} */
+  row-gap: 3em;
+  overflow: scroll;
+}
 
 .card{
-  margin: 36px 40px;
+  margin: 40px 40px;
   width: 100%;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
+  gap: 20px;
+}
+
+.card-text {
+  max-width: 425px;
+  font-size: 12px;
 }
 
 .pin-icon {
@@ -99,6 +105,14 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: space-around;
+}
+
+.date {
+  font-weight: bold;
+}
+
+.description {
+  color: gray;
 }
 
 /* FOOTER */
