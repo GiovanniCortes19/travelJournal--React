@@ -61,5 +61,20 @@ h1 {
 
 /* CARD */
 
+.card{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.pin-icon {
+  width: 7px;
+  height: 9.5px;
+}
+
+.card-img {
+  width: 126px;
+  height: 168px;
+}
 
 /* FOOTER */
