@@ -256,6 +256,10 @@ h1 {
     column-gap: 8px;
   }
 
+  .cards-list{
+    overflow-x: hidden;
+  }
+
   .location {
     font-size: 16px;
   }
@@ -276,8 +280,13 @@ h1 {
     width: 9px;
     height: 12px;
   }
+
+  .cards-list{
+    overflow-x: hidden;
+  }
   
   .card-img {
+    margin-left: 5px;
     width: 115px;
     height: 185px;
     border-radius: 7px;
@@ -285,22 +294,31 @@ h1 {
   }
 
   .card-text {
-    max-width: 315px;
-    font-size: 14px;
+    max-width: 300px;
+    font-size: 13px;
     row-gap: 10px;
   }
 
   .location-info {
-    max-width: 250px;
+    max-width: 235px;
     column-gap: 8px;
   }
 
   .location {
     font-size: 12px;
+    margin-right: 0;
+  }
+
+  a {
+    font-size: 12px;
   }
 
   .title {
     font-size: 24px;
+  }
+
+  .card{
+    gap: 10px;
   }
 
   .date {
